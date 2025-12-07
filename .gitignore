@@ -41,6 +41,9 @@ wheels/
 *.swo
 *~
 
+# Kiro配置（不需要部署）
+.kiro/
+
 # 操作系统
 .DS_Store
 Thumbs.db
@@ -48,3 +51,6 @@ Thumbs.db
 # 临时文件
 *.tmp
 *.bak
+
+# 文档（可选，减少部署大小）
+DEPLOYMENT_FREE_WEBSOCKET.md
